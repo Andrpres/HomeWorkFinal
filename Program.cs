@@ -22,3 +22,10 @@ string[] resultMass(string[] array){
     mass2 = mass2.Where(x => x != null).ToArray();
     return mass2;
 }
+
+Console.Write("Изначальный массив: ");
+PrintArray(mass1);
+Console.WriteLine();
+//Выводим итоговый массив на экран
+Console.Write("Итоговый массив: ");
+PrintArray(resultMass(mass1));
