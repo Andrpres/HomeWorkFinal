@@ -1,2 +1,2 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿//Задаем первичный массив
+string[] mass1 = { "Russia", "Pol", "1478" };
